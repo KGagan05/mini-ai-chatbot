@@ -33,4 +33,50 @@ ai-chatbot
 │   └── index.html       # UI
 └── README.md
 
+⚙️ Technologies Used
+	•	Python
+	•	FastAPI
+	•	Scikit-learn
+	•	Jinja2
+	•	HTML
+
+⸻
+
+🔍 How It Works
+
+1️⃣ Knowledge Base
+
+A text file (data.txt) contains predefined information.
+
+2️⃣ Text Vectorization
+
+Uses TF-IDF Vectorizer to convert text into numerical vectors.
+
+3️⃣ Similarity Matching
+
+Uses Cosine Similarity to find the most relevant response.
+
+4️⃣ Response Generation
+
+Returns the closest matching sentence from the dataset.
+
+⸻
+
+▶️ How to Run
+
+Install dependencies
+
+pip install fastapi uvicorn scikit-learn jinja2
+
+Run the chatbot
+
+uvicorn app:app --reload
+
+Example 
+You: What is NLP?
+Bot: NLP stands for Natural Language Processing.
+
+
+
+
 
